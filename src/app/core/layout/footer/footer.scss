@@ -1,0 +1,19 @@
+.footer {
+  background-color: #27272c;
+
+  & nav a {
+    color: #949494;
+
+    &:hover {
+      color: #fff;
+      cursor: pointer;
+      transition: color 0.3s ease;
+      background-color: #94949425;
+      border-radius: 0.5rem;
+    }
+  }
+
+  & hr {
+    border-color: #3f3f46;
+  }
+}
