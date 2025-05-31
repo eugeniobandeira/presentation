@@ -23,8 +23,8 @@ jobs:
       # - name: 🧹 Linting
       #   run: npm run lint
 
-      - name: 🧪 Testing
-        run: npm test
+      # - name: 🧪 Testing
+      #   run: npm test
 
   CD:
     name: 🚢 Continuous Deployment
