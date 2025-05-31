@@ -1,6 +1,8 @@
-name: 🚀CI/CD Pipeline
+name: CI/CD Pipeline
 
 on:
+  push:
+    branches: ["master"]
   pull_request:
     branches: ["master"]
 
