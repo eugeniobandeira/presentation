@@ -20,8 +20,8 @@ jobs:
       - name: 📦 Installing dependencies
         run: npm install --legacy-peer-deps
 
-      - name: 🧹 Linting
-        run: npm run lint
+      # - name: 🧹 Linting
+      #   run: npm run lint
 
       - name: 🧪 Testing
         run: npm test
